@@ -1,0 +1,3 @@
+$( ".selector" ).accordion({
+  heightStyle: "fill"
+});
