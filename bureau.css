@@ -24,8 +24,9 @@
 }
 
 #tabs li .ui-icon-close {
-	display: inline-block;
-	cursor: pointer;
+	float: left;
+	margin: 0.4em 0.2em 0 0;
+	 cursor: pointer;
 }
 
 #add_tab {
