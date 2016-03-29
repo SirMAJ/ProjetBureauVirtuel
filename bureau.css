@@ -32,3 +32,16 @@
 #add_tab {
 	cursor: pointer;
 }
+
+#toolBar {
+	border: 2px orange solid;
+}
+
+img.intLink {
+	cursor: pointer;
+	padding: 2px;
+}
+
+#textBox {
+	border: 2px black solid
+}

@@ -19,14 +19,14 @@
 <body id="body" onload="init()">
 <div id="page">
 	<div id="accordion">
-	  <h3>Section 1</h3>
+	  <h3>HomeDir</h3>
 	  <div>
 	    <p>
 	    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
 	    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
 	    amet, nunc. Nam a nibh. Donec suscipit
 	  </div>
-	  <h3>Section 2</h3>
+	  <h3>Calculette</h3>
 	  <div>
 	    <p>
 	    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
@@ -35,7 +35,7 @@
 	    suscipit faucibus urna.
 	    </p>
 	  </div>
-	  <h3>Section 3</h3>
+	  <h3>Calendrier</h3>
 	  <div>
 	    <p>
 	    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
@@ -49,7 +49,7 @@
 	      <li>List item three</li>
 	    </ul>
 	  </div>
-	  <h3>Section 4</h3>
+	  <h3>Jeu</h3>
 	  <div>
 	    <p>
 	    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
@@ -66,10 +66,15 @@
 	</div>
 	<div id="tabs">
 	  <ul>
-	    <li><a href="#tabs-1">Nunc tincidunt</a> <span class="ui-icon ui-icon-close">Remove Tab</span> </li>
-	    <li><a href="#tabs-2">Proin dolor</a> <span class="ui-icon ui-icon-close">Remove Tab</span> </li>
-	    <li><a href="#tabs-3">Aenean lacinia</a> <span class="ui-icon ui-icon-close">Remove Tab</span> </li>
+	    <li><a href="#tabs-1">rapport M6107</a> <span class="ui-icon ui-icon-close">Remove Tab</span> </li>
+	    <li><a href="#tabs-2">documentation</a> <span class="ui-icon ui-icon-close">Remove Tab</span> </li>
+	    <li><a href="#tabs-3">notes de cours</a> <span class="ui-icon ui-icon-close">Remove Tab</span> </li>
 	  </ul>
+		<div id="toolBar">
+		<img class="intLink" title="Bold" onclick="formatDoc('bold');" src="icons/edit-bold" />
+		<img class="intLink" title="Italic" onclick="formatDoc('italic');" src="icons/edit-italic" />
+		</div>
+		<div id="textBox" contenteditable="true">
 	  <div id="tabs-1">
 	    <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
 	  </div>
@@ -80,6 +85,7 @@
 	    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
 	    <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
 	  </div>
+		</div>
 	</div>
 </div>
 	<script src="bureau.js"></script>
