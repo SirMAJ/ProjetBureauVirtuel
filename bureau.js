@@ -39,11 +39,9 @@ function init() {
 			li = $( tabTemplate.replace( /#\{href\}/g, "#" + id ).replace( /#\{label\}/g, label ) );
 
 			tabs.find( ".ui-tabs-nav" ).append( li );
-			id = "TextBox-" + tabtextCounter;
 			tabs.append( "<div id='" + id + "' contenteditable=\"true\"><p>" + /*DOC TEXT*/ + "</p></div>" );
 			tabs.tabs( "refresh" );
 			tabCounter++;
-			tabtextCounter++;
 		}
 	});
 	///////////////////////////////////////////////////////////////////////////////////
